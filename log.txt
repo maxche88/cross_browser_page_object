@@ -1,0 +1,28 @@
+2025-05-30 13:50:58 INFO ====== WebDriver manager ======
+2025-05-30 13:51:00 INFO Get LATEST geckodriver version for 138.0 firefox
+2025-05-30 13:51:01 INFO Get LATEST geckodriver version for 138.0 firefox
+2025-05-30 13:51:01 INFO Driver [C:\Users\Максим\.wdm\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+2025-05-30 13:51:10 INFO test_step1 Starting
+2025-05-30 13:51:12 INFO Send test to element //*[@id="login"]/div[1]/label/input
+2025-05-30 13:51:12 INFO Send test to element //*[@id="login"]/div[2]/label/input
+2025-05-30 13:51:12 INFO Click login button
+2025-05-30 13:51:13 INFO We find text 401 in error field //*[@id="app"]/main/div/div/div[2]/h2
+2025-05-30 13:51:13 INFO test_step2 Starting
+2025-05-30 13:51:13 INFO Send pytest to element //*[@id="login"]/div[1]/label/input
+2025-05-30 13:51:14 INFO Send 5a748c1201 to element //*[@id="login"]/div[2]/label/input
+2025-05-30 13:51:14 INFO Click login button
+2025-05-30 13:51:15 INFO We find text Hello, pytest in text hello label /html/body/div[1]/main/nav/ul/li[3]/a
+2025-05-30 13:51:15 INFO test_step3 Starting
+2025-05-30 13:51:15 INFO Click create new post button
+2025-05-30 13:51:16 INFO Send kUyNrVJvcH to element //*[@id="create-item"]/div/div/div[1]/div/label/input
+2025-05-30 13:51:16 INFO Send kUyNrVJvcH to element //*[@id="create-item"]/div/div/div[2]/div/label/span/textarea
+2025-05-30 13:51:16 INFO Send kUyNrVJvcH to element //*[@id="create-item"]/div/div/div[3]/div/label/span/textarea
+2025-05-30 13:51:17 INFO Routing https://test-stand.gb.ru/posts/create -> https://test-stand.gb.ru/posts/133265
+2025-05-30 13:51:17 INFO We find text kUyNrVJvcH in title post field //*[@id="app"]/main/div/div[1]/h1
+2025-05-30 13:51:17 INFO test_step4 Starting
+2025-05-30 13:51:17 INFO Click contact button
+2025-05-30 13:51:17 INFO Send NvYInbOWQX to element //*[@id="contact"]/div[1]/label/input
+2025-05-30 13:51:17 INFO Send NvYInbOWQX@NvYInbOWQX.bk to element //*[@id="contact"]/div[2]/label/input
+2025-05-30 13:51:17 INFO Send NvYInbOWQX to element //*[@id="contact"]/div[3]/label/span/textarea
+2025-05-30 13:51:17 INFO Click contact us button
+2025-05-30 13:51:18 INFO alertForm successfully submitted
